@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#00ffff" nextlayerid="11" nextobjectid="18">
+ <tileset firstgid="1" source="main_set.tsx"/>
+ <layer id="4" name="Static Platforms" width="100" height="100">
+  <properties>
+   <property name="class_name" value="Block"/>
+   <property name="density" type="float" value="1"/>
+   <property name="dynamic" type="int" value="0"/>
+   <property name="rotates" type="int" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0VEOgyAMAFC3+x964aNJQ4oOmYmLz8RQainy2DYPAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBD4D4F3+s1RnEqEFwuM7iDnL/6Fx7avjHNuFJ8Be51Z9LA12TuOnnOjOGpnxifdR3ZrRv38bC73yfHMPUTtne+jP1s/n/Gralf65bWjOIz7cc9871v0aTXf1EX9r8Z8ztazn8/kqtqVfnntKG57Vs+e555zrIux6n1lLp+z7dPPZ3JV7Uq/vHYUtz2rJzwr+/ztKG77etcNjpyrO5QjQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIE7iXwAUYNATU=
+  </data>
+ </layer>
+ <layer id="10" name="Dynamic Platforms" width="100" height="100">
+  <properties>
+   <property name="class_name" value="Block"/>
+   <property name="density" type="float" value="0.5"/>
+   <property name="dynamic" type="int" value="1"/>
+   <property name="rotates" type="int" value="1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt00GKwzAMBdDO3P/QgxYFIRSqNsmA3edN7V/JxM/J42EQIECAAAECBAgQIECAAAECZwR+zjTrvUQg38HvJTva5IxAvoM8P7PnN/bm9/p5/k+yfAd5/tzTby9QrTu7T7Lck+f9U+yTVs842TSL2mpV113NJMv75Hn07jSqdXfWaRYutbauu5pJlvfJ8+jdadSz1XWcdZp1tdPeV3X5/zxf/S5efQ/dWaeZ+3j/7ai2r9ad8VHW5XX/rmaS5X3yPHpXGu9+D91Zp1m41Nq67mqOsshXH2f9z/rV/roO32m24l1c7T+16uo6666uy1a0j2e+27+zmmbfeB/V5u51Z3yURb77uPt72N3v6vP9x/t/9TPvvJ/72Pl2nY0AAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgsI7AH08RARI=
+  </data>
+ </layer>
+ <layer id="8" name="Player" width="100" height="100">
+  <properties>
+   <property name="class_name" value="Player"/>
+   <property name="density" type="float" value="1"/>
+   <property name="dynamic" type="int" value="1"/>
+   <property name="rotates" type="int" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0AEJAAAMw7DB/Xu+jMFIHTSJCBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIDAhsBtbLggQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQKAs8PvTAAQ=
+  </data>
+ </layer>
+</map>
