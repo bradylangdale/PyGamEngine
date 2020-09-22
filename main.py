@@ -43,6 +43,5 @@ class Application:
                     pygame.quit()
                     sys.exit()
 
-
 app = Application()
 app.main_loop()

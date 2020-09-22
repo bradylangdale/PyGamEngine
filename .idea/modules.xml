@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/BPA_project_2019.iml" filepath="$PROJECT_DIR$/.idea/BPA_project_2019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PyGamEngine.iml" filepath="$PROJECT_DIR$/.idea/PyGamEngine.iml" />
     </modules>
   </component>
 </project>
